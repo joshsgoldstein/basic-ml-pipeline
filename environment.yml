@@ -1,0 +1,4 @@
+name: firstpipe
+channels:
+  - defaults
+prefix: /Users/josh/opt/anaconda3/envs/firstpipe
