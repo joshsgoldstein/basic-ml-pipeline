@@ -1,6 +1,8 @@
 FROM python:3.8-slim-buster
 
-RUN pip install mlflow boto3 pymysql minio sklearn cryptography
+RUN apt-get update && apt-get install -y git
+
+RUN pip install mlflow boto3 pymysql minio sklearn cryptography 
 
 WORKDIR /training
 COPY ./tests.py .
