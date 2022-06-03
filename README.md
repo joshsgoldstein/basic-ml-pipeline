@@ -13,3 +13,6 @@ Build API Endpoint for model prediction
 
 Follow based on this documentation:
 [Build Docker File with Python Wrapper Class](https://docs.seldon.io/projects/seldon-core/en/latest/python/python_wrapping_docker.html)
+
+Test with microservice:
+`seldon-core-microservice MyModel REST --service-type MODEL`
