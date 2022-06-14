@@ -11,10 +11,10 @@ COPY . .
 # Port for GRPC
 EXPOSE 5000
 # Port for REST
-EXPOSE 9003
+EXPOSE 9000
 
 # Define environment variables
-ENV MODEL_NAME mlFlowModel
+ENV MODEL_NAME BasicModel
 ENV SERVICE_TYPE MODEL
 
 # Changing folder to default user
